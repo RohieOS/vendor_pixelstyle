@@ -50,7 +50,7 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.CHANGE_OVERLAY_PACKAGES"/>
     </privapp-permissions>
 
-    <privapp-permissions package="com.breel.wallpapers19">
+    <privapp-permissions package="com.breel.wallpapers20">
         <permission name="android.permission.AMBIENT_WALLPAPER"/>
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
         <permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
@@ -63,7 +63,11 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.LOCATION_HARDWARE"/>
     </privapp-permissions>
 
-    <privapp-permissions package="com.google.android.gms.">
+    <privapp-permissions package="com.google.android.apps.tips">
+        <permission name="android.permission.READ_DEVICE_CONFIG"/>
+    </privapp-permissions>
+
+    <privapp-permissions package="com.google.android.gms">
         <permission name="android.permission.ACTIVITY_RECOGNITION"/>
     </privapp-permissions>
 
